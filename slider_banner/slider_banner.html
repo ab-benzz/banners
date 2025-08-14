@@ -8,38 +8,40 @@
 </head>
 
 <body>
+    <main>
 
+        <section id="carousel" class="carousel">
+            <div class="carousel-track">
+                <!-- Slides will be cloned via JS -->
+                <div class="carousel-slide">
+                    <picture>
+                        <source srcset="images/banner_desktop.jpg" media="(min-width: 1025px)">
+                        <source srcset="images/banner_tab.jpg" media="(min-width: 501px)">
+                        <img src="images/banner_mobile.jpg" alt="Slide 1">
+                    </picture>
+                </div>
+                <div class="carousel-slide">
+                    <picture>
+                        <source srcset="images/planning_studio_hero.png" media="(min-width: 1025px)">
+                        <source srcset="images/banner_tab.jpg" media="(min-width: 501px)">
+                        <img src="images/banner_mobile.jpg" alt="Slide 2">
+                    </picture>
+                </div>
+                <div class="carousel-slide">
+                    <picture>
+                        <source srcset="images/banner_desktop.jpg" media="(min-width: 1025px)">
+                        <source srcset="images/banner_tab.jpg" media="(min-width: 501px)">
+                        <img src="images/banner_mobile.jpg" alt="Slide 3">
+                    </picture>
+                </div>
+            </div>
 
-    <section id="carousel" class="carousel">
-        <div class="carousel-track">
-            <!-- Slides will be cloned via JS -->
-            <div class="carousel-slide">
-                <picture>
-                    <source srcset="images/banner_desktop.jpg" media="(min-width: 1025px)">
-                    <source srcset="images/banner_tab.jpg" media="(min-width: 501px)">
-                    <img src="images/banner_mobile.jpg" alt="Slide 1">
-                </picture>
-            </div>
-            <div class="carousel-slide">
-                <picture>
-                    <source srcset="images/planning_studio_hero.png" media="(min-width: 1025px)">
-                    <source srcset="images/banner_tab.jpg" media="(min-width: 501px)">
-                    <img src="images/banner_mobile.jpg" alt="Slide 2">
-                </picture>
-            </div>
-            <div class="carousel-slide">
-                <picture>
-                    <source srcset="images/banner_desktop.jpg" media="(min-width: 1025px)">
-                    <source srcset="images/banner_tab.jpg" media="(min-width: 501px)">
-                    <img src="images/banner_mobile.jpg" alt="Slide 3">
-                </picture>
-            </div>
-        </div>
+            <!-- Arrows -->
+            <button class="carousel-btn prev">&#10094;</button>
+            <button class="carousel-btn next">&#10095;</button>
+        </section>
+    </main>
 
-        <!-- Arrows -->
-        <button class="carousel-btn prev">&#10094;</button>
-        <button class="carousel-btn next">&#10095;</button>
-    </section>
 
 
 
@@ -58,6 +60,11 @@
     section {
         margin: 20px;
     } */
+
+    main {
+        max-width: 1400px;
+        margin: 0 auto;
+    }
 
     .carousel {
         position: relative;
