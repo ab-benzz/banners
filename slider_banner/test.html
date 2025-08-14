@@ -1,0 +1,110 @@
+<section class="payment-cards">
+    <h2 class="section-title">Payment Offers</h2>
+    <div class="cards-container">
+
+        <div class="payment-card">
+            <img src="bank1-logo.png" alt="Bank 1 Logo" class="bank-logo">
+            <h3 class="promo-title">Installment up to 24 months, Pay 2 Months Later</h3>
+            <p class="promo-desc">Applicable for Installment and Shop Now Pay Later.</p>
+            <span class="promo-dates">Valid: Aug 1 – Sep 30, 2025</span>
+        </div>
+
+        <div class="payment-card">
+            <img src="bank2-logo.png" alt="Bank 2 Logo" class="bank-logo">
+            <h3 class="promo-title">0% Interest for 12 Months</h3>
+            <p class="promo-desc">Available for purchases above $500.</p>
+            <span class="promo-dates">Valid: Aug 5 – Oct 15, 2025</span>
+        </div>
+
+        <div class="payment-card">
+            <img src="bank3-logo.png" alt="Bank 3 Logo" class="bank-logo">
+            <h3 class="promo-title">Pay in 6 Easy Monthly Installments</h3>
+            <p class="promo-desc">For all cardholders. No minimum spend.</p>
+            <span class="promo-dates">Valid: Jul 15 – Aug 31, 2025</span>
+        </div>
+
+        <div class="payment-card">
+            <img src="bank4-logo.png" alt="Bank 4 Logo" class="bank-logo">
+            <h3 class="promo-title">Extra 5% Cashback on Electronics</h3>
+            <p class="promo-desc">Cashback credited on next billing cycle.</p>
+            <span class="promo-dates">Valid: Aug 1 – Aug 20, 2025</span>
+        </div>
+
+        <div class="payment-card">
+            <img src="bank5-logo.png" alt="Bank 5 Logo" class="bank-logo">
+            <h3 class="promo-title">Buy Now, Pay in 3 Months</h3>
+            <p class="promo-desc">Available for all online purchases.</p>
+            <span class="promo-dates">Valid: Aug 1 – Dec 31, 2025</span>
+        </div>
+
+        <div class="payment-card">
+            <img src="bank6-logo.png" alt="Bank 6 Logo" class="bank-logo">
+            <h3 class="promo-title">Exclusive 0% Installment on Furniture</h3>
+            <p class="promo-desc">Up to 18 months installment plan.</p>
+            <span class="promo-dates">Valid: Aug 10 – Nov 15, 2025</span>
+        </div>
+
+    </div>
+</section>
+
+<style>
+    .payment-cards {
+        padding: 2rem;
+        background: #f8f9fa;
+        font-family: Arial, sans-serif;
+    }
+
+    .section-title {
+        text-align: center;
+        font-size: 1.8rem;
+        margin-bottom: 1.5rem;
+        color: #333;
+    }
+
+    .cards-container {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+        gap: 1.5rem;
+    }
+
+    .payment-card {
+        background: white;
+        border-radius: 12px;
+        padding: 1.2rem;
+        box-shadow: 0 4px 14px rgba(0, 0, 0, 0.05);
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        transition: transform 0.2s ease, box-shadow 0.2s ease;
+    }
+
+    .payment-card:hover {
+        transform: translateY(-4px);
+        box-shadow: 0 6px 20px rgba(0, 0, 0, 0.08);
+    }
+
+    .bank-logo {
+        width: 80px;
+        height: auto;
+        margin-bottom: 0.8rem;
+    }
+
+    .promo-title {
+        font-size: 1rem;
+        color: #0077b6;
+        margin-bottom: 0.4rem;
+        font-weight: bold;
+    }
+
+    .promo-desc {
+        font-size: 0.9rem;
+        color: #555;
+        margin-bottom: 0.6rem;
+    }
+
+    .promo-dates {
+        font-size: 0.8rem;
+        color: #888;
+        margin-top: auto;
+    }
+</style>
