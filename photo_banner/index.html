@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Template</title>
+    <title>Responsive Banner</title>
     <link rel="icon" type="image/x-icon" href="https://tinyurl.com/yt7f6mkc">
     <!-- <link rel="stylesheet" href="styles.css"> -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -18,9 +18,13 @@
 <body>
     <main>
         <section id="bday-page-hero">
+            <!-- Mobile: 800x460 -->
+            <!-- Tab: 900x450 -->
+            <!-- Desktop: 1400x420 -->
+
             <picture>
-                <source srcset="slider_banner/images/banner_desktop.jpg" media="(width > 1024px)">
-                <source srcset="slider_banner/images/banner_tab.jpg" media="(width > 500px)">
+                <source srcset="images/banner_desktop.jpg" media="(width > 1024px)">
+                <source srcset="images/banner_tab.jpg" media="(width > 500px)">
                 <img src="images/banner_mobile.jpg" alt="Birthday Page Hero" loading="lazy" class="bday-page-hero-img">
             </picture>
         </section>
